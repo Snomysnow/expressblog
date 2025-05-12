@@ -29,7 +29,7 @@ router.post("/signin/submit", (req, res) => {
 });
 
 router.post("/signup/submit", (req, res) => {
-    if (!req.body.email || !req.body.password || !req.body.fullname) {
+    if (!req.body.email || !req.body.password || !req.body.name) {
         return renderSignup(req, res, "Fields cannot be empty.");
     }
 

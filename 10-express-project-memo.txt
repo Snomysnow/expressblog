@@ -1,0 +1,18 @@
+Finish the project:
+1. Finish the Compose Page
+	1. Flash out the page design (a form that includes a title, post body, and a submit button)
+	2. When submitted save the post in the postDB 
+	3. Expend the postDB include authors name and time posted
+	3. Routes to consider: /compose and /compose/submit
+2. Finish the Profile Page
+	1. Flash out the page design (bio, username, profile-image, user's posts)
+	2. When saved, the information should also be in the userDB
+	3. Routes to consider: /profile and /profile/save-changes
+3. Finish the Settings Page
+	1. Flash out the page design (keep it simple: dark mode - light mode)
+	2. When saved, page should only be displayed on that mode, unless the user changes the settings again
+	3. Routes to consider: /settings and /settings/save-changes
+4. All the pages (Feed, Compose, Profile, Settings) share the same header
+	1. Modularize the code by injecting the header.ejs file into each of those webpages
+
+Good luck and have fun!

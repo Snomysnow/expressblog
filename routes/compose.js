@@ -21,7 +21,7 @@ router.post('/submit', function(req,res,next){
     }
 
     postDB.posts.push(req.body);
-    writePostDB(postDB.posts);
+    writePostDB(postDB);
     renderHome(req, res);
 });
 
